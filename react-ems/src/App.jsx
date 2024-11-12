@@ -9,14 +9,14 @@ const App = () => {
   const [loggedUserData, setLoggedUserData] = useState(null);
   const authData = useContext(AuthContext);
 
-  // useEffect(() => {
-  //   if (authData) {
-  //     const loggedUser = localStorage.getItem("loggedUser");
-  //     if(loggedUser){
-  //       setUser(loggedUser.role);
-  //     }
-  //   }
-  // }, [authData]);
+  useEffect(() => {
+      const loggedUser = localStorage.getItem("loggedUser");
+      if(loggedUser){
+        const userData = JSON.parse(loggedUser);
+        setUser(userData.role);
+        setLoggedUserData(userData.data);
+      }
+  }, [authData]);
 
   const handleLogin = (email, password) => {
     if (authData.admin.find((e) => e.email == email && e.password == password)) {
@@ -27,7 +27,7 @@ const App = () => {
       if(employee){
         setUser('employee');
         setLoggedUserData(employee);
-        localStorage.setItem("loggedUser", JSON.stringify({ role: "employee" }));
+        localStorage.setItem("loggedUser", JSON.stringify({ role: "employee", data: employee }));
       }
     } else {
       alert("Incorrect Credentials");
