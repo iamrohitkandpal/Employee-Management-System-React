@@ -1,5 +1,3 @@
-localStorage.clear();
-
 const employees = [
   {
     id: 1,
@@ -286,6 +284,7 @@ const employees = [
 const admin = [{
   "id": 1,
   "email": "admin@example.com",
+  "firstName": "John",
   "password": "123"
 }];
 
