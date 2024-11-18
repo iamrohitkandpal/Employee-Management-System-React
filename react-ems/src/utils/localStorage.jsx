@@ -19,7 +19,8 @@ const employees = [
         taskTitle: "Backend API Integration",
         taskDescription: "Connect frontend components with the new backend API.",
         taskDate: "2024-10-15",
-        category: "Development"
+        category: "Development",
+        priority: "High"
       },
       {
         active: false,
@@ -29,7 +30,8 @@ const employees = [
         taskTitle: "Data Migration",
         taskDescription: "Plan and execute data migration for version upgrade.",
         taskDate: "2024-10-17",
-        category: "Database"
+        category: "Database",
+        priority: "Urgent"
       },
       {
         active: false,
@@ -39,7 +41,8 @@ const employees = [
         taskTitle: "Bug Fixes",
         taskDescription: "Fix bugs reported in the staging environment.",
         taskDate: "2024-10-10",
-        category: "Maintenance"
+        category: "Maintenance",
+        priority: "Mid"
       },
       {
         active: false,
@@ -49,7 +52,8 @@ const employees = [
         taskTitle: "Client Presentation",
         taskDescription: "Showcase the new feature enhancements to the client.",
         taskDate: "2024-10-09",
-        category: "Meeting"
+        category: "Meeting",
+        priority: "Low"
       },
       {
         active: false,
@@ -59,7 +63,8 @@ const employees = [
         taskTitle: "Automated Testing",
         taskDescription: "Set up automated tests for key modules.",
         taskDate: "2024-10-08",
-        category: "QA"
+        category: "QA",
+        priority: "Urgent"
       }
     ]
   },
@@ -83,7 +88,8 @@ const employees = [
         taskTitle: "Database Optimization",
         taskDescription: "Optimize database queries to enhance performance.",
         taskDate: "2024-10-11",
-        category: "Database"
+        category: "Database",
+        priority: "High"
       },
       {
         active: false,
@@ -93,7 +99,8 @@ const employees = [
         taskTitle: "Mockup Designs",
         taskDescription: "Design new mockups for upcoming features.",
         taskDate: "2024-10-12",
-        category: "Design"
+        category: "Design",
+        priority: "Mid"
       },
       {
         active: false,
@@ -103,7 +110,8 @@ const employees = [
         taskTitle: "Documentation Update",
         taskDescription: "Update technical documentation for the new release.",
         taskDate: "2024-10-09",
-        category: "Documentation"
+        category: "Documentation",
+        priority: "Low"
       },
       {
         active: false,
@@ -113,7 +121,8 @@ const employees = [
         taskTitle: "User Survey Analysis",
         taskDescription: "Analyze feedback from recent user survey.",
         taskDate: "2024-10-07",
-        category: "Research"
+        category: "Research",
+        priority: "Urgent"
       }
     ]
   },
@@ -137,7 +146,8 @@ const employees = [
         taskTitle: "Performance Review",
         taskDescription: "Analyze performance metrics of the recent deployment.",
         taskDate: "2024-10-13",
-        category: "Analysis"
+        category: "Analysis",
+        priority: "High"
       },
       {
         active: false,
@@ -147,7 +157,8 @@ const employees = [
         taskTitle: "Feature Enhancement Planning",
         taskDescription: "Brainstorm and document ideas for the new product feature.",
         taskDate: "2024-10-14",
-        category: "Development"
+        category: "Development",
+        priority: "Mid"
       },
       {
         active: false,
@@ -157,7 +168,8 @@ const employees = [
         taskTitle: "Product Testing",
         taskDescription: "Conduct final testing for version 2.1 release.",
         taskDate: "2024-10-09",
-        category: "QA"
+        category: "QA",
+        priority: "Low"
       },
       {
         active: false,
@@ -167,7 +179,8 @@ const employees = [
         taskTitle: "Security Check",
         taskDescription: "Verify security patches have been applied to all servers.",
         taskDate: "2024-10-06",
-        category: "Security"
+        category: "Security",
+        priority: "Urgent"
       }
     ]
   },
@@ -191,7 +204,8 @@ const employees = [
         taskTitle: "API Documentation",
         taskDescription: "Document API endpoints for the developer portal.",
         taskDate: "2024-10-11",
-        category: "Documentation"
+        category: "Documentation",
+        priority: "High"
       },
       {
         active: false,
@@ -201,7 +215,8 @@ const employees = [
         taskTitle: "Environment Setup",
         taskDescription: "Prepare the environment for the next release.",
         taskDate: "2024-10-13",
-        category: "DevOps"
+        category: "DevOps",
+        priority: "Mid"
       },
       {
         active: false,
@@ -211,7 +226,8 @@ const employees = [
         taskTitle: "Sprint Planning",
         taskDescription: "Organize tasks for the upcoming sprint.",
         taskDate: "2024-10-09",
-        category: "Planning"
+        category: "Planning",
+        priority: "Low"
       },
       {
         active: false,
@@ -221,7 +237,8 @@ const employees = [
         taskTitle: "Database Migration",
         taskDescription: "Attempted to migrate database to new structure but failed.",
         taskDate: "2024-10-08",
-        category: "Database"
+        category: "Database",
+        priority: "Urgent"
       }
     ]
   },
@@ -245,7 +262,8 @@ const employees = [
         taskTitle: "UX Testing",
         taskDescription: "Test the UX for accessibility and user-friendliness.",
         taskDate: "2024-10-15",
-        category: "QA"
+        category: "QA",
+        priority: "High"
       },
       {
         active: false,
@@ -255,7 +273,8 @@ const employees = [
         taskTitle: "Prototype Wireframing",
         taskDescription: "Create wireframes for new product prototype.",
         taskDate: "2024-10-16",
-        category: "Design"
+        category: "Design",
+        priority: "Mid"
       },
       {
         active: false,
@@ -265,7 +284,8 @@ const employees = [
         taskTitle: "Deploy to Production",
         taskDescription: "Deploy the latest version of the app to production.",
         taskDate: "2024-10-10",
-        category: "DevOps"
+        category: "DevOps",
+        priority: "Low"
       },
       {
         active: false,
@@ -275,7 +295,8 @@ const employees = [
         taskTitle: "Gather Feedback",
         taskDescription: "Collect feedback from users post-launch.",
         taskDate: "2024-10-12",
-        category: "Support"
+        category: "Support",
+        priority: "Urgent"
       }
     ]
   }
