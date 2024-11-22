@@ -7,17 +7,26 @@ const CreateTask = () => {
   const [firstName, setFirstName] = useState("");
   const [priority, setPriority] = useState("");
 
-  const [task, setTask] = useState({});
+  const [newTask, setNewTask] = useState({});
 
   const submitHandler = (e) => {
     e.preventDefault();
 
-    setTask({taskTitle, taskDescription, priority, firstName, taskDate, active:false, newTask:true, failed:false, completed:false})
-    // setTaskTitle("");
-    // setFirstName("");
-    // setPriority("");
-    // setTaskDescription("");
-    // setPriority("");
+    setNewTask({taskTitle, taskDescription, priority, firstName, taskDate, active:false, newTask:true, failed:false, completed:false})
+
+    const data = JSON.parse(localStorage.getItem("employees"));
+
+    data.forEach(employee => {
+      if(firstName == employee.firstName){
+        employee.tasks.push(newTask);
+        localStorage.setItem("employees", JSON.stringify(data));
+      } 
+    });
+    setTaskTitle("");
+    setFirstName("");
+    setPriority("");
+    setTaskDescription("");
+    setPriority("");
   };
 
   return (
